@@ -32,7 +32,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  dio: 3.0.10
   # 路由框架 https://github.com/theyakka/fluro
   fluro: 1.6.3
   flutter_screenutil: ^2.1.0

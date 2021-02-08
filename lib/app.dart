@@ -1,4 +1,4 @@
-import 'package:dio/dio.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_study/pages/home.dart';
 import 'package:flutter_study/routes/routers.dart';

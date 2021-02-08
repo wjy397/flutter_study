@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 class Home extends StatefulWidget {
   Home({Key key}) : super(key: key);
 
@@ -15,6 +15,7 @@ class _HomeState extends State<Home> {
     super.initState();
   }
 
+
   @override
   void dispose() {
     super.dispose();
@@ -22,12 +23,13 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
+    //设置设计稿分辨率
+    ScreenUtil.init(context, width: 750, height: 1334);
     // TODO: implement build
     return Scaffold(
-      body: Column(
-        children: [
-          Text('抽屉')
-        ],
+      backgroundColor: Colors.white,
+      body: Center(
+        child: Text('sss'),
       ),
     );
   }
