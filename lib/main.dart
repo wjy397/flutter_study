@@ -15,12 +15,12 @@ void main() async {
   /// sp初始化
   await SpUtil.getInstance();
   /// App入口
-  runApp(
-    MultiProvider(
-      providers: [],
-      child: MyApp(),
-    ),);
-
+  // runApp(
+  //   MultiProvider(
+  //     providers: [],
+  //     child: MyApp(),
+  //   ),);
+  runApp(new MyApp(),);
   /// 自定义报错页面
   ErrorWidget.builder = (FlutterErrorDetails flutterErrorDetails) {
     debugPrint(flutterErrorDetails.toString());
