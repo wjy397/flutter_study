@@ -5,5 +5,10 @@
 1.抽屉效果
  [点击查看效果图](http://cunchu.youhuiniu.cn/chouti.gif)
 
+ 介绍文章[点击查看效果图](https://juejin.cn/post/6926783074811363342)
+
 2.动画旋转效果
  [点击查看效果图](http://cunchu.youhuiniu.cn/dfbebb72e6ca75e6a97328b71133369f.mp4)
+
+ 介绍文章[点击查看效果图](https://juejin.cn/post/6927450385267294216)
+
