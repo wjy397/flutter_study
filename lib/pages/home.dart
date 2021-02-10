@@ -23,6 +23,23 @@ class _HomeState extends State<Home> {
     super.dispose();
   }
 
+  menuItem(name){
+    return Container(
+      width: ScreenUtil().setWidth(200),
+      height: ScreenUtil().setWidth(80),
+      color: Colors.blue,
+      child: Center(
+        child: Text(
+          name,
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: ScreenUtil().setSp(28),
+          ),
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     //设置设计稿分辨率
@@ -37,20 +54,14 @@ class _HomeState extends State<Home> {
                 onTap: (){
                   NavigatorUtils.push(context, RootRouter.drawer);
                 },
-                child: Container(
-                  width: ScreenUtil().setWidth(200),
-                  height: ScreenUtil().setWidth(80),
-                  color: Colors.blue,
-                  child: Center(
-                    child: Text(
-                      '抽屉效果',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: ScreenUtil().setSp(28),
-                      ),
-                    ),
-                  ),
-                ),
+                child: menuItem('手风琴效果'),
+              ),
+              SizedBox(height: 20,),
+              GestureDetector(
+                onTap: (){
+                  NavigatorUtils.push(context, RootRouter.animation);
+                },
+                child: menuItem('旋转动画'),
               )
             ],
           ),
