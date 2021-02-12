@@ -18,7 +18,7 @@ ____
 
 
 3.刻度尺
-[点击查看效果图](http://cunchu.youhuiniu.cn/chouti.gif)
+[点击查看效果图](http://cunchu.youhuiniu.cn/keduchi.jpg)
 
 介绍文章:[点击查看介绍文章](https://juejin.cn/post/6927450385267294216)
 
