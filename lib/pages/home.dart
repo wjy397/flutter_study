@@ -62,6 +62,13 @@ class _HomeState extends State<Home> {
                   NavigatorUtils.push(context, RootRouter.animation);
                 },
                 child: menuItem('旋转动画'),
+              ),
+              SizedBox(height: 20,),
+              GestureDetector(
+                onTap: (){
+                  NavigatorUtils.push(context, RootRouter.scale);
+                },
+                child: menuItem('刻度尺'),
               )
             ],
           ),
