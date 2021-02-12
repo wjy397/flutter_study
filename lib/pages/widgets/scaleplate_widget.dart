@@ -222,24 +222,6 @@ class MyPainter extends CustomPainter {
 
 
 
-  ui.Paragraph _buildGradeText(String content, double maxWidth) {
-    ui.ParagraphBuilder paragraphBuilder =
-        ui.ParagraphBuilder(ui.ParagraphStyle());
-    paragraphBuilder.pushStyle(
-      ui.TextStyle(
-        fontSize: 14,
-        color: Color(0xFFBBB3CA),
-        //fontFamily: "Montserrat",
-      ),
-    );
-    paragraphBuilder.addText(content);
-
-    ui.Paragraph paragraph = paragraphBuilder.build();
-    paragraph.layout(ui.ParagraphConstraints(width: maxWidth));
-
-    return paragraph;
-  }
-
   @override
   bool shouldRepaint(CustomPainter oldDelegate) => false;
 }
