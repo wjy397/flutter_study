@@ -165,11 +165,11 @@ class MyPainter extends CustomPainter {
   void drawLine(Canvas canvas, Size size) {
     double startY, endY;
     switch (type) {
-      case 0: //首元素只绘制右半部分
+      case 0: //首元素只绘制上半部分
         startY = size.height / 2;
         endY = size.height;
         break;
-      case 2: //尾元素只绘制左半部分
+      case 2: //尾元素只绘制下半部分
         startY = 0;
         endY = size.height / 2;
         break;
