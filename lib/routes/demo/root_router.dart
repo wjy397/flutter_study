@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:fluro/fluro.dart';
 import 'package:flutter_study/pages/animation.dart';
+import 'package:flutter_study/pages/customHeader.dart';
 import 'package:flutter_study/pages/drawer.dart';
 import 'package:flutter_study/pages/scale.dart';
 import 'package:flutter_study/pages/sliverHeader.dart';
@@ -18,6 +19,7 @@ class RootRouter implements IRouterProvider{
 
   static String sliverHeader = '/sliverHeader';
 
+  static String customHeader = '/customHeader';
   @override
   void initRouter(Router router) {
     router.define(drawer,
@@ -28,6 +30,8 @@ class RootRouter implements IRouterProvider{
         handler: Handler(handlerFunc: (_, __) => ScaleDemo()));
     router.define(sliverHeader,
         handler: Handler(handlerFunc: (_, __) => SliverHeaderDemo()));
+    router.define(customHeader,
+        handler: Handler(handlerFunc: (_, __) => OwnnessPage()));
     // router.define(bodyDataPage, handler: Handler(
     //     handlerFunc: (BuildContext context, Map<String, List<String>> params) {
     //       String flag = params["flag"]?.first??'init';
