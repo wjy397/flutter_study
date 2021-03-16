@@ -30,3 +30,10 @@ ____
 介绍文章:[点击查看介绍文章](https://juejin.cn/post/6930507179107549191)
 
 
+ ____
+
+
+4.上滑出现吸顶tab栏
+[点击查看效果图](http://cunchu.youhuiniu.cn/tab.gif)
+
+介绍文章:[点击查看介绍文章](https://juejin.cn/post/6930507179107549191)
